@@ -319,5 +319,15 @@ Type `uuid --help` for usage details
 npm test
 ```
 
+## Releasing
+
+Releases are supposed to be done from master, version bumping is automated through
+[`standard-version`](https://github.com/conventional-changelog/standard-version):
+
+```shell
+npm run release -- --dry-run # verify output manually
+npm run release # follow the instructions from the output of this command
+```
+
 ----
 Markdown generated from [README_js.md](README_js.md) by [![RunMD Logo](http://i.imgur.com/h0FVyzU.png)](https://github.com/broofa/runmd)
