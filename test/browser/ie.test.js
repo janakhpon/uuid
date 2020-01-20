@@ -14,4 +14,10 @@ browserTest('ie', 9003, [
     os: 'Windows',
     os_version: '7',
   },
+  {
+    browserName: 'IE',
+    browser_version: '8.0',
+    os: 'Windows',
+    os_version: '7',
+  },
 ]);
